@@ -43,6 +43,9 @@ for i in range(m):
 
 # Konwersa danych do zakresu [0, 1]
 liczby_01 = konwersja_do_01(sampels, m)
+del liczby_01[0]
+# del liczby_01[2]
+print(liczby_01)
 
 #------------------------wykresy--------------------------
 

@@ -37,6 +37,7 @@ def wykres_punktow_przesuniecie(liczby, przesuniecie):
 
     plt.plot(x, y, color='blue', linestyle='-', marker='o', markerfacecolor='red', markeredgecolor='red', markersize=8)
 
+    plt.title(przesuniecie)
     plt.xlabel("x")
     plt.ylabel("y")
     plt.show()
